@@ -10,6 +10,17 @@ import culturalUnity from './assets/cultural-unity.png';
 import childrenFestival from './assets/children-festival.png';
 import tradeEvent from './assets/trade-event.jpg';
 import beautyCompetition from './assets/beauty-competition.jpg';
+import gallery1 from './assets/Gallery/gallery-image1.jpg';
+import gallery2 from './assets/Gallery/gallery-image2.jpg';
+import gallery3 from './assets/Gallery/gallery-image3.jpg';
+import gallery4 from './assets/Gallery/gallery-image4.jpg';
+import gallery5 from './assets/Gallery/gallery-image6.jpg';
+import gallery6 from './assets/Gallery/gallery-image7.jpg';
+import gallery7 from './assets/Gallery/gallery-image9.jpg';
+import gallery8 from './assets/Gallery/gallery-image10.jpg';
+import gallery9 from './assets/Gallery/gallery-image11.jpg';
+import gallery10 from './assets/Gallery/gallery-image12.jpg';
+import gallery11 from './assets/Gallery/gallery-image13.jpg';
 
 
 export const navLinks = [
@@ -101,3 +112,50 @@ export const scheduleData = [
         image: beautyCompetition,
     },
 ];
+
+export const galleryData = [
+    {
+        image: gallery1,
+        alt: 'Gallery Image 1',
+    } ,
+    {
+        image: gallery2,
+        alt: 'Gallery Image 2',
+    } ,
+    {
+        image: gallery3,
+        alt: 'Gallery Image 3',
+    } ,
+    {
+        image: gallery4,
+        alt: 'Gallery Image 4',
+    } ,
+    {
+        image: gallery5,
+        alt: 'Gallery Image 5',
+    } ,
+    {
+        image: gallery6,
+        alt: 'Gallery Image 6',
+    } ,
+    {
+        image: gallery7,
+        alt: 'Gallery Image 7',
+    } ,
+    {
+        image: gallery8,
+        alt: 'Gallery Image 8',
+    } ,
+    {
+        image: gallery9,
+        alt: 'Gallery Image 9',
+    } ,
+    {
+        image: gallery10,
+        alt: 'Gallery Image 10',
+    } ,
+    {
+        image: gallery11,
+        alt: 'Gallery Image 11',
+    } ,
+]

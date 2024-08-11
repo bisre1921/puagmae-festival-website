@@ -3,5 +3,23 @@
 @tailwind utilities;
 html {
     scroll-behavior: smooth;
-  }
-  
+}
+
+.swiper-pagination-bullet {
+  background: white;
+}
+
+.swiper-pagination-bullet-active {
+  background: goldenrod; /* Or your preferred color */
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after{
+    color: goldenrod;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
+    background: goldenrod !important
+}
