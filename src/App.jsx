@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar";
 import Services from './components/Services';
 import Schedule from './components/Schedule';
 import Gallery from './components/Gallery';
+import Testimonials from './components/Testimonials';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Services />
         <Schedule />
         <Gallery />
+        <Testimonials />
       </div>
     </Router>
   )

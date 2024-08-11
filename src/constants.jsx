@@ -21,6 +21,9 @@ import gallery8 from './assets/Gallery/gallery-image10.jpg';
 import gallery9 from './assets/Gallery/gallery-image11.jpg';
 import gallery10 from './assets/Gallery/gallery-image12.jpg';
 import gallery11 from './assets/Gallery/gallery-image13.jpg';
+import testimonial1 from "./assets/testimonials/testimonial1.jpg";
+import testimonial2 from "./assets/testimonials/testimonial2.jpg";
+import testimonial3 from "./assets/testimonials/testimonial3.jpg";
 
 
 export const navLinks = [
@@ -157,5 +160,26 @@ export const galleryData = [
     {
         image: gallery11,
         alt: 'Gallery Image 11',
+    } ,
+]
+
+export const testimonials = [
+    {
+        name: 'John Doe',
+        title: 'CEO, Company Name',
+        image: testimonial1,
+        quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien egestas tincidunt. Nullam nec purus nec purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien egestas tincidunt. Nullam nec purus nec purus.',
+    } ,
+    {
+        name: 'John Doe',
+        title: 'CEO, Company Name',
+        image: testimonial2,
+        quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien egestas tincidunt. Nullam nec purus nec purus. lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien egestas tincidunt. Nullam nec purus nec purus.',
+    } ,
+    {
+        name: 'John Doe',
+        title: 'CEO, Company Name',
+        image: testimonial3,
+        quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien egestas tincidunt. Nullam nec purus nec purus. lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien egestas tincidunt. Nullam nec purus nec purus.',
     } ,
 ]
