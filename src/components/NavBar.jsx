@@ -15,6 +15,7 @@ const NavBar = () => {
             alt="puagmae logo" 
             className='w-20 h-20'
           />
+          
         </div>
         <div className='hidden lg:flex  justify-center'>
           <ul className='flex space-x-6 list-none'>
