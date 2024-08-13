@@ -9,7 +9,7 @@ import "../index.css"
 
 const Gallery = () => {
   return (
-    <div className="gallery-section bg-gradient-to-b from-black via-gray-800 to-black py-10" id="gallery">
+    <div className="gallery-section bg-gradient-to-b from-black via-gray-800 to-black py-20 pb-28" id="gallery">
       <h1 className="text-4xl md:text-5xl text-center font-extrabold text-white mb-8">
         Gallery
       </h1>

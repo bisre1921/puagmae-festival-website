@@ -37,7 +37,7 @@ const Home = () => {
 
   return (
     <div
-      className='relative h-screen bg-cover bg-center flex items-center justify-center'
+      className='relative h-screen bg-cover bg-center flex items-center justify-center pb-28'
       id='home'
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >

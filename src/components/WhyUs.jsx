@@ -5,7 +5,7 @@ import { reasons } from '../constants';
 const WhyUs = () => {
  
   return (
-    <div className="why-us-section bg-gradient-to-b from-black via-gray-800 to-black py-12 text-white" id="why-us">
+    <div className="why-us-section bg-gradient-to-b from-black via-gray-800 to-black py-20 pb-28 text-white" id="why-us">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-14">What Makes Our Festival Unique</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

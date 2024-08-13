@@ -4,7 +4,7 @@ import { FaCalendarDay } from 'react-icons/fa';
 
 const Schedule = () => {
   return (
-    <div className='relative py-20 bg-gradient-to-r from-gray-900 to-gray-800 text-white' id='schedule'>
+    <div className='relative py-20 pb-28 bg-gradient-to-r from-gray-900 to-gray-800 text-white' id='schedule'>
       <div className='max-w-6xl mx-auto px-4'>
         <h2 className='text-5xl font-extrabold mb-12 text-center text-goldenrod'>
           Festival Schedule

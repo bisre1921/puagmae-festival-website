@@ -28,7 +28,6 @@ import testimonial3 from "./assets/testimonials/testimonial3.jpg";
 import { FaHandshake , FaUsers, FaLightbulb, FaBullhorn, FaRocket } from 'react-icons/fa';
 import { MdEqualizer } from 'react-icons/md';
 
-
 export const navLinks = [
     { name: 'Home', id: 'home' },
     { name: 'About', id: 'about' },
