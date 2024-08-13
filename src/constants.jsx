@@ -25,6 +25,9 @@ import testimonial1 from "./assets/testimonials/testimonial1.jpg";
 import testimonial2 from "./assets/testimonials/testimonial2.jpg";
 import testimonial3 from "./assets/testimonials/testimonial3.jpg";
 
+import { FaHandshake , FaUsers, FaLightbulb, FaBullhorn, FaRocket } from 'react-icons/fa';
+import { MdEqualizer } from 'react-icons/md';
+
 
 export const navLinks = [
     { name: 'Home', id: 'home' },
@@ -183,3 +186,37 @@ export const testimonials = [
         quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien egestas tincidunt. Nullam nec purus nec purus. lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien egestas tincidunt. Nullam nec purus nec purus.',
     } ,
 ]
+
+
+export const reasons = [
+    {
+      icon: <FaHandshake className="text-4xl text-goldenrod" />,
+      title: 'We Encourage the Ideals of Unity',
+      description: 'We foster a collaborative and unified approach to achieve common goals.',
+    },
+    {
+      icon: <MdEqualizer className="text-4xl text-goldenrod" />,
+      title: 'We Never Compromise Equality',
+      description: 'Equality is at the core of our values, ensuring fair treatment and opportunities for all.',
+    },
+    {
+      icon: <FaUsers className="text-4xl text-goldenrod" />,
+      title: 'Reliable Audience Relationship',
+      description: 'We build and maintain strong, trustworthy relationships with our audience.',
+    },
+    {
+      icon: <FaLightbulb className="text-4xl text-goldenrod" />,
+      title: 'Technology & Creativity',
+      description: 'Combining cutting-edge technology with creative solutions to drive innovation.',
+    },
+    {
+      icon: <FaRocket className="text-4xl text-goldenrod" />,
+      title: 'We Are Highly Responsible',
+      description: 'Our commitment to responsibility ensures that we deliver on our promises with integrity.',
+    },
+    {
+      icon: <FaBullhorn className="text-4xl text-goldenrod" />,
+      title: 'Continuous Improvement',
+      description: 'We are dedicated to continuous improvement and striving for excellence in everything we do.',
+    },
+  ];

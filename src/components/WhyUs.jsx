@@ -1,41 +1,9 @@
 import React from 'react';
-import { FaHandshake , FaUsers, FaLightbulb, FaBullhorn, FaRocket } from 'react-icons/fa';
-import { MdEqualizer } from 'react-icons/md';
+import { reasons } from '../constants';
+
 
 const WhyUs = () => {
-  const reasons = [
-    {
-      icon: <FaHandshake className="text-4xl text-goldenrod" />,
-      title: 'We Encourage the Ideals of Unity',
-      description: 'We foster a collaborative and unified approach to achieve common goals.',
-    },
-    {
-      icon: <MdEqualizer className="text-4xl text-goldenrod" />,
-      title: 'We Never Compromise Equality',
-      description: 'Equality is at the core of our values, ensuring fair treatment and opportunities for all.',
-    },
-    {
-      icon: <FaUsers className="text-4xl text-goldenrod" />,
-      title: 'Reliable Audience Relationship',
-      description: 'We build and maintain strong, trustworthy relationships with our audience.',
-    },
-    {
-      icon: <FaLightbulb className="text-4xl text-goldenrod" />,
-      title: 'Technology & Creativity',
-      description: 'Combining cutting-edge technology with creative solutions to drive innovation.',
-    },
-    {
-      icon: <FaRocket className="text-4xl text-goldenrod" />,
-      title: 'We Are Highly Responsible',
-      description: 'Our commitment to responsibility ensures that we deliver on our promises with integrity.',
-    },
-    {
-      icon: <FaBullhorn className="text-4xl text-goldenrod" />,
-      title: 'Continuous Improvement',
-      description: 'We are dedicated to continuous improvement and striving for excellence in everything we do.',
-    },
-  ];
-
+ 
   return (
     <div className="why-us-section bg-gradient-to-b from-black via-gray-800 to-black py-12 text-white" id="why-us">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
