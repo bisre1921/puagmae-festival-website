@@ -14,10 +14,10 @@ const Testimonials = () => {
     };
 
     return (
-        <div className="bg-gradient-to-b from-black to-gray-900 py-16 px-4" id="testimonials">
+        <div className="bg-gradient-to-r from-gray-900 to-gray-800 py-16 px-4" id="testimonials">
             <div className="max-w-6xl mx-auto">
                 <h1 className="text-4xl md:text-6xl font-extrabold text-center text-goldenrod mb-12">
-                    Testimonials
+                    Hear from Our Guests
                 </h1>
                 <div className="relative flex items-center justify-center">
                     {testimonials.map((testimonial, index) => (
@@ -26,7 +26,7 @@ const Testimonials = () => {
                                 key={index} 
                                 className="text-center transition-opacity duration-500 ease-in-out transform scale-100 hover:scale-105"
                             >
-                                <FaQuoteLeft className="text-4xl md:text-5xl text-goldenrod mb-4 mx-auto" />
+                                <FaQuoteLeft className="text-2xl md:text-3xl text-goldenrod mb-4 mx-auto" />
                                 <p className="text-lg md:text-2xl text-gray-300 italic max-w-3xl mx-auto leading-relaxed px-4">
                                     "{testimonial.quote}"
                                 </p>

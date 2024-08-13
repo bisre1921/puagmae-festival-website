@@ -8,6 +8,7 @@ import Gallery from './components/Gallery';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import WhyUs from './components/WhyUs';
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <Schedule />
         <Gallery />
         <Testimonials />
+        <WhyUs />
         <Contact />
         <Footer />
       </div>
