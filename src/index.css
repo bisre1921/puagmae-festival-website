@@ -10,7 +10,7 @@ html {
 }
 
 .swiper-pagination-bullet-active {
-  background: goldenrod; /* Or your preferred color */
+  background: goldenrod; 
 }
 
 .swiper-button-next:after,

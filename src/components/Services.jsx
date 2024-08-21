@@ -53,7 +53,7 @@ const Services = () => {
               onClick={handleLoadMore}
               className="bg-goldenrod text-black px-4 py-2 rounded-full font-semibold shadow-lg hover:bg-yellow-600 transition-colors duration-300 mr-4"
             >
-              Load More
+              Other Services
             </button>
           )}
           {visibleServices > 3 && (
@@ -61,7 +61,7 @@ const Services = () => {
               onClick={handleReadLess}
               className="bg-gray-500 text-white px-4 py-2 rounded-full font-semibold shadow-lg hover:bg-gray-600 transition-colors duration-300"
             >
-              Read Less
+              Less Services
             </button>
           )}
         </div>
