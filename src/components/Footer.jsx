@@ -52,12 +52,6 @@ const Footer = () => {
                             <a href="https://www.instagram.com/puagmae_fest?igsh=emE3ZWg0bnNyYWkx" target="_blank" rel="noopener noreferrer" className="text-goldenrod hover:text-white transition duration-300">
                                 <FaInstagram className="text-2xl" />
                             </a>
-                            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-goldenrod hover:text-white transition duration-300">
-                                <FaTwitter className="text-2xl" />
-                            </a>
-                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-goldenrod hover:text-white transition duration-300">
-                                <FaLinkedinIn className="text-2xl" />
-                            </a>
                             <a href="https://www.tiktok.com/@puagmae.festival?_t=8opgfYASYNh&_r=1" target="_blank" rel="noopener noreferrer" className="text-goldenrod hover:text-white transition duration-300">
                                 <FaTiktok className="text-2xl" />
                             </a>

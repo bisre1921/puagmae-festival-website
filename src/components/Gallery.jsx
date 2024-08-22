@@ -8,14 +8,14 @@ const Gallery = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % galleryData.length);
-    }, 2500); // Change image every 2.5 seconds
+    }, 2000);
 
     return () => clearInterval(interval);
   }, []);
 
   return (
     <div className="gallery-section bg-gradient-to-b from-black via-gray-800 to-black py-20 pb-28 h-[700px]" id="gallery">
-      <h1 className="text-4xl md:text-5xl text-center font-extrabold text-white mb-8">
+      <h1 className="text-4xl md:text-5xl text-center font-extrabold text-goldenrod mb-8">
         Gallery
       </h1>
       <div className="max-w-6xl mx-auto relative">
@@ -28,7 +28,7 @@ const Gallery = () => {
             <img
               src={gallery.image}
               alt={gallery.alt}
-              className="w-9/12 mx-auto h-full object-cover rounded-lg transition-transform duration-1000 ease-in-out"
+              className="w-10/12 mx-auto h-full object-cover rounded-lg transition-transform duration-1000 ease-in-out"
             />
           </div>
         ))}

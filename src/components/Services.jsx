@@ -25,7 +25,7 @@ const Services = () => {
   return (
     <div className="relative py-20 pb-28 bg-gradient-to-r from-gray-800 to-gray-900 text-white" id='services'>
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-5xl font-extrabold mb-16 text-center">Our Services</h2>
+        <h2 className="text-5xl font-extrabold mb-16 text-center text-goldenrod">Our Services</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.slice(0, visibleServices).map((service, index) => (
             <div key={index} className="bg-gray-700 rounded-lg shadow-lg flex flex-col overflow-hidden">

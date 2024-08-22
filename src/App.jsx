@@ -10,6 +10,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import WhyUs from './components/WhyUs';
 import VendorsAndPartners from './components/VendorsAndPartners';
+import VideosFromPreviousEvents from './components/VideosFromPreviousEvents.jsx';
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
         <Services />
         <Schedule />
         <Gallery />
+        <VideosFromPreviousEvents />
         <VendorsAndPartners />
         <Testimonials />
         <WhyUs />
