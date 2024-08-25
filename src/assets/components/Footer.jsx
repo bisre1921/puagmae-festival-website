@@ -15,19 +15,19 @@ const Footer = () => {
                     </div>
 
                     <div>
-                        <h2 className="text-3xl font-bold mb-4">Contact</h2>
+                        <h2 className="text-3xl font-bold mb-4">Contact Information</h2>
                         <ul className="space-y-4">
                             <li className="flex items-center">
                                 <FaEnvelope className="text-goldenrod text-2xl mr-4" />
-                                <a href="mailto:info@example.com" className="text-lg">info@puagmaefestival.com</a>
+                                <a href="mailto:info@example.com" className="text-lg">info@example.com</a>
                             </li>
                             <li className="flex items-center">
                                 <FaPhone className="text-goldenrod text-2xl mr-4" />
-                                <a href="tel:+1234567890" className="text-lg">+251 901002282</a>
+                                <a href="tel:+1234567890" className="text-lg">+123 456 7890</a>
                             </li>
                             <li className="flex items-center">
                                 <FaMapMarkerAlt className="text-goldenrod text-2xl mr-4" />
-                                <span className="text-lg">Ledeta Kefleketema, Kebele 49, At last floor of Haven Hotel</span>
+                                <span className="text-lg">1234 Street, City, Country</span>
                             </li>
                         </ul>
                     </div>

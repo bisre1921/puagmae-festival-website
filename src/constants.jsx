@@ -28,7 +28,18 @@ import testimonial1 from "./assets/testimonials/testimonial1.jpg";
 import testimonial2 from "./assets/testimonials/testimonial2.jpg";
 import testimonial3 from "./assets/testimonials/testimonial3.jpg";
 import dashenLogo from './assets/dashen.jpg';
+import ethiopianAirlines from './assets/etAir.png';
+import africanUnion from './assets/AfricanUnion.png';
+import cocacola from './assets/coca.png';
+import kana from './assets/kana.jpg';
+import twoFiveOne from './assets/Twofiveone.png';
+import peaceJourneyAfrica from './assets/pja.png';
+import moct from './assets/Moct.png';
+import AfricanTB from './assets/Atb.jpeg';
 import afscLogo from './assets/afsc.jpg';
+import ermias from './assets/ermias-advert.png';
+import mocas from './assets/mocas.jpg'
+import sodere from './assets/sodere.jpg'
 import firstVideo from './assets/videos/D.mp4'
 import secondVideo from './assets/videos/H.mp4'
 import thirdVideo from './assets/videos/R.mp4'
@@ -242,9 +253,18 @@ export const galleryData = [
 
 export const vendors = [
     { name: 'Dashen Bank', logo: dashenLogo },
-  { name: 'American Friends Service Committee', logo: afscLogo },
-    { name: 'Partner 3', logo: '/assets/partner1.png' },
-    { name: 'Partner 4', logo: '/assets/partner2.png' },
+    { name: 'American Friends Service Committee', logo: afscLogo },
+    { name: 'Ethiopian Airlines', logo: ethiopianAirlines },
+    { name: 'Ministry of culture and tourism', logo: moct },
+    { name: 'Peace Journey Africa', logo: peaceJourneyAfrica },
+    { name: 'African Union', logo: africanUnion },
+    { name: '251 Digital marketing', logo: twoFiveOne},
+    { name: 'Coca cola', logo: cocacola },
+    { name: 'Kana tv', logo: kana },
+    { name: 'Ermiyas Advertising', logo: ermias },
+    { name: 'Sodere Hotel AU' , logo: sodere },
+    { name: 'Ministry of culture and Sport', logo: mocas },
+    
   ];
 
 export const testimonials = [
