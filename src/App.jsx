@@ -1,4 +1,3 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import About from "./components/About";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
@@ -11,10 +10,11 @@ import Footer from './components/Footer';
 import WhyUs from './components/WhyUs';
 import VendorsAndPartners from './components/VendorsAndPartners';
 import VideosFromPreviousEvents from './components/VideosFromPreviousEvents.jsx';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function App() {
   return (
-    <Router>
       <div>
         <NavBar />
         <Home />
@@ -28,7 +28,16 @@ export default function App() {
         <WhyUs />
         <Contact />
         <Footer />
+
+        <ToastContainer 
+          position="top-right"
+          autoClose={3000} 
+          hideProgressBar={false} 
+          closeOnClick 
+          pauseOnHover 
+          draggable 
+          pauseOnFocusLoss 
+        />
       </div>
-    </Router>
-  )
+  );
 }

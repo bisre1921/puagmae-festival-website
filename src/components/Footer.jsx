@@ -17,13 +17,17 @@ const Footer = () => {
                     <div>
                         <h2 className="text-3xl font-bold mb-4">Contact</h2>
                         <ul className="space-y-4">
-                            <li className="flex items-center">
+                            <li className="flex items-start">
                                 <FaEnvelope className="text-goldenrod text-2xl mr-4" />
-                                <a href="mailto:info@example.com" className="text-lg">info@puagmaefestival.com</a>
+                                <p className="text-lg">
+                                    puagmaefestival.com <br />
+                                    <span className='flex justify-center items-center text-center'>or</span>
+                                    pjafrica.2020@gmail.com
+                                </p>
                             </li>
                             <li className="flex items-center">
                                 <FaPhone className="text-goldenrod text-2xl mr-4" />
-                                <a href="tel:+1234567890" className="text-lg">+251 901002282</a>
+                                <p className="text-lg">+251 901002282</p>
                             </li>
                             <li className="flex items-center">
                                 <FaMapMarkerAlt className="text-goldenrod text-2xl mr-4" />
@@ -57,10 +61,6 @@ const Footer = () => {
                             </a>
                         </div>
                     </div>
-                </div>
-
-                <div className="border-t border-gray-700 pt-8 mt-12 text-center">
-                    <p className="text-lg mb-2">&copy; {new Date().getFullYear()} Puagmae Festival. All Rights Reserved.</p>
                 </div>
             </div>
         </footer>

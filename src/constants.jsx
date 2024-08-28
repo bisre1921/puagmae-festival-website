@@ -1,4 +1,5 @@
-import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn, FaTiktok } from "react-icons/fa";
+import { FaFacebookF, FaInstagram , FaTiktok } from "react-icons/fa";
+
 import culturalKnowledgeExchange from "./assets/cultural-knowledge-exchange.jpg";
 import localAndInternationalConference from './assets/local-and-international-conference.jpg';
 import treePlanting from './assets/tree-planting.jpg';
@@ -13,6 +14,7 @@ import beautyCompetition from './assets/beauty-competition.jpg';
 import eventOrganizer from './assets/event-organizer.jpg';
 import agent from './assets/agent.jpg';
 import carRental from './assets/car-rental.jpg';
+
 import gallery1 from './assets/Gallery/gallery-image1.jpg';
 import gallery2 from './assets/Gallery/gallery-image2.jpg';
 import gallery3 from './assets/Gallery/gallery-image3.jpg';
@@ -24,22 +26,25 @@ import gallery8 from './assets/Gallery/gallery-image10.jpg';
 import gallery9 from './assets/Gallery/gallery-image11.jpg';
 import gallery10 from './assets/Gallery/gallery-image12.jpg';
 import gallery11 from './assets/Gallery/gallery-image13.jpg';
-import testimonial1 from "./assets/testimonials/testimonial1.jpg";
-import testimonial2 from "./assets/testimonials/testimonial2.jpg";
-import testimonial3 from "./assets/testimonials/testimonial3.jpg";
-import dashenLogo from './assets/dashen.jpg';
-import ethiopianAirlines from './assets/etAir.png';
-import africanUnion from './assets/AfricanUnion.png';
-import cocacola from './assets/coca.png';
-import kana from './assets/kana.jpg';
-import twoFiveOne from './assets/Twofiveone.png';
-import peaceJourneyAfrica from './assets/pja.png';
-import moct from './assets/Moct.png';
-import AfricanTB from './assets/Atb.jpeg';
-import afscLogo from './assets/afsc.jpg';
-import ermias from './assets/ermias-advert.png';
-import mocas from './assets/mocas.jpg'
-import sodere from './assets/sodere.jpg'
+
+import gashabera from "./assets/testimonials/gashabera.png";
+import getnet from "./assets/testimonials/getnet.jpg";
+import ashenafi from "./assets/testimonials/ashenafi.jpg";
+
+import twoFive from './assets/Logo/251DM.png';
+import africanTourismBoard from './assets/Logo/African tourism board.png';
+import americanFriendsService from './assets/Logo/afsc.svg';
+import cocaCola from './assets/Logo/cocacola.png';
+import ermiasAdvertising from './assets/Logo/Ermias advertising.png';
+import etAirlines from './assets/Logo/et-airlines-logo-min.png';
+import kanaTv from './assets/Logo/Kana tv.png';
+import genericLogo from './assets/Logo/logo.png';
+import ministryOfCulture from './assets/Logo/ministry of culture and sport.png';
+import peaceJourneyAfrica from './assets/Logo/peace journey africa.png';
+import sodere from './assets/Logo/sodere.png';
+import au from './assets/Logo/au.png';
+
+
 import firstVideo from './assets/videos/D.mp4'
 import secondVideo from './assets/videos/H.mp4'
 import thirdVideo from './assets/videos/R.mp4'
@@ -84,9 +89,9 @@ export const services = [
         image: treePlanting,
     },
     {
-        title: 'Car Rental and Tour',
-        description: 'Enjoy convenient car rental services and guided tours.',
-        fullDescription: 'Our car rental and tour services provide you with the convenience of renting vehicles and exploring destinations with experienced guides, ensuring a memorable travel experience.',
+        title: 'City Tour',
+        description: 'Explore the city with guided tours.',
+        fullDescription: 'Our city tour services offer guided tours that allow you to explore and experience the city’s landmarks, history, and culture, ensuring a memorable and informative journey.',
         image: carRental,
     },
     {
@@ -251,40 +256,39 @@ export const galleryData = [
     } ,
 ]
 
-export const vendors = [
-    { name: 'Dashen Bank', logo: dashenLogo },
-    { name: 'American Friends Service Committee', logo: afscLogo },
-    { name: 'Ethiopian Airlines', logo: ethiopianAirlines },
-    { name: 'Ministry of culture and tourism', logo: moct },
-    { name: 'Peace Journey Africa', logo: peaceJourneyAfrica },
-    { name: 'African Union', logo: africanUnion },
-    { name: '251 Digital marketing', logo: twoFiveOne},
-    { name: 'Coca cola', logo: cocacola },
-    { name: 'Kana tv', logo: kana },
-    { name: 'Ermiyas Advertising', logo: ermias },
-    { name: 'Sodere Hotel AU' , logo: sodere },
-    { name: 'Ministry of culture and Sport', logo: mocas },
-    
+export const vendors =[
+    { name: "", logo: peaceJourneyAfrica },
+    { name: "", logo: au },
+    { name: "", logo: africanTourismBoard },
+    { name: "", logo: etAirlines },
+    { name: "", logo: ermiasAdvertising },
+    { name: "", logo: americanFriendsService },
+    { name: "", logo: cocaCola },
+    { name: "", logo: twoFive },
+    { name: "", logo: kanaTv },
+    { name: "", logo: genericLogo },
+    { name: "", logo: ministryOfCulture },
+    { name: "", logo: sodere },
   ];
 
 export const testimonials = [
     {
-        name: 'John Doe',
-        title: 'CEO, Company Name',
-        image: testimonial1,
-        quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien egestas tincidunt. Nullam nec purus nec purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien egestas tincidunt. Nullam nec purus nec purus.',
+        name: 'Loret Sileshi Demissie',
+        title: 'Artist',
+        image: gashabera,
+        quote: "Attending the Puagmae Festival was an unforgettable experience! The vibrant celebration of culture, tradition, and community left a lasting impression on me. The organizers did an amazing job of bringing together people from all walks of life to celebrate our shared heritage. I can't wait to attend next year!",
     } ,
     {
-        name: 'John Doe',
-        title: 'CEO, Company Name',
-        image: testimonial2,
-        quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien egestas tincidunt. Nullam nec purus nec purus. lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien egestas tincidunt. Nullam nec purus nec purus.',
+        name: 'Dr.Getnet Feleke ',
+        title: 'Astronomical Doctor',
+        image: getnet,
+        quote: "The Puagmae Festival is a true celebration of African culture. The energy, the colors, the music—everything was beautifully organized and truly represented the rich diversity of our continent. It's more than just an event; it's a moment of unity and pride. I felt deeply connected to my roots and to the community around me.",
     } ,
     {
-        name: 'John Doe',
-        title: 'CEO, Company Name',
-        image: testimonial3,
-        quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien egestas tincidunt. Nullam nec purus nec purus. lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien egestas tincidunt. Nullam nec purus nec purus.',
+        name: 'Ashenafi Kidane',
+        title: 'Ethio Adams Agro industry Manager',
+        image: ashenafi,
+        quote: 'The Puagmae Festival was a remarkable showcase of our cultural heritage. From the traditional performances to the workshops and exhibitions, every aspect of the festival was thoughtfully curated. It was a joy to see the younger generation engage with our traditions in such a meaningful way. Kudos to the organizers for putting together such an inspiring event!',
     } ,
 ]
 
@@ -309,34 +313,35 @@ export const videos = [
 
 
 export const reasons = [
-    {
-      icon: <FaHandshake className="text-4xl text-goldenrod" />,
-      title: 'We Encourage the Ideals of Unity',
-      description: 'We foster a collaborative and unified approach to achieve common goals.',
-    },
-    {
-      icon: <MdEqualizer className="text-4xl text-goldenrod" />,
-      title: 'We Never Compromise Equality',
-      description: 'Equality is at the core of our values, ensuring fair treatment and opportunities for all.',
-    },
-    {
-      icon: <FaUsers className="text-4xl text-goldenrod" />,
-      title: 'Reliable Audience Relationship',
-      description: 'We build and maintain strong, trustworthy relationships with our audience.',
-    },
-    {
-      icon: <FaLightbulb className="text-4xl text-goldenrod" />,
-      title: 'Technology & Creativity',
-      description: 'Combining cutting-edge technology with creative solutions to drive innovation.',
-    },
-    {
-      icon: <FaRocket className="text-4xl text-goldenrod" />,
-      title: 'We Are Highly Responsible',
-      description: 'Our commitment to responsibility ensures that we deliver on our promises with integrity.',
-    },
-    {
-      icon: <FaBullhorn className="text-4xl text-goldenrod" />,
-      title: 'Continuous Improvement',
-      description: 'We are dedicated to continuous improvement and striving for excellence in everything we do.',
-    },
-  ];
+  {
+    icon: <FaHandshake className="text-4xl text-goldenrod" />,
+    title: 'We Celebrate the Unique 13th Month',
+    description: 'Join us in celebrating the only 13-month calendar in the world. We’ll take you on a journey to the 13th month!',
+  },
+  {
+    icon: <MdEqualizer className="text-4xl text-goldenrod" />,
+    title: 'Inclusiveness at Our Core',
+    description: 'Our festival embraces everyone, ensuring a welcoming and inclusive environment for all participants.',
+  },
+  {
+    icon: <FaUsers className="text-4xl text-goldenrod" />,
+    title: 'A Festival Before the New Year',
+    description: 'Celebrate with us as we mark the transition to a new year with vibrant events and activities.',
+  },
+  {
+    icon: <FaLightbulb className="text-4xl text-goldenrod" />,
+    title: 'A Great Run in the Rain',
+    description: 'Experience the thrill of our festival’s iconic run, embracing the refreshing rain as part of the fun.',
+  },
+  {
+    icon: <FaRocket className="text-4xl text-goldenrod" />,
+    title: 'Technology & Creativity Combined',
+    description: 'We merge innovative technology with creativity to deliver an unforgettable experience.',
+  },
+  {
+    icon: <FaBullhorn className="text-4xl text-goldenrod" />,
+    title: 'Commitment to Continuous Improvement',
+    description: 'We are always striving to enhance our offerings and provide an even better festival each year.',
+  },
+];
+

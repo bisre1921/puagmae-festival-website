@@ -14,7 +14,7 @@ const Testimonials = () => {
     };
 
     return (
-        <div className="bg-gradient-to-r from-gray-900 to-gray-800 py-20 pb-28 px-4" id="testimonials">
+        <div className="bg-gradient-to-b from-gray-900 via-gray-800 to-black py-20 pb-28 px-4" id="testimonials">
             <div className="max-w-6xl mx-auto">
                 <h1 className="text-4xl md:text-6xl font-extrabold text-center text-white mb-12">
                     Hear from Our Guests
