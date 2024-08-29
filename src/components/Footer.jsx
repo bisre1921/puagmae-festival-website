@@ -20,7 +20,7 @@ const Footer = () => {
                             <li className="flex items-start">
                                 <FaEnvelope className="text-goldenrod text-2xl mr-4" />
                                 <p className="text-lg">
-                                    puagmaefestival.com <br />
+                                     puagmaef@gmail.com  <br />
                                     <span className='flex justify-center items-center text-center'>or</span>
                                     pjafrica.2020@gmail.com
                                 </p>
