@@ -14,7 +14,7 @@ const VideosFromPreviousEvents = () => {
     };
 
     return (
-        <div className="relative py-20 bg-gray-900 text-white">
+        <div className="relative py-20 bg-gray-900 text-white" id="videos">
             <div className="max-w-6xl mx-auto px-4">
                 <h2 className="text-5xl font-extrabold mb-12 text-center">Videos from Previous Events</h2>
                 <div className="flex flex-col items-center mb-6">

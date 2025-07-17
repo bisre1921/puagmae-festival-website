@@ -18,8 +18,8 @@ const NavBar = () => {
 
     const options = {
       root: null,
-      rootMargin: '0px',
-      threshold: 0.4,
+      rootMargin: '-20% 0px -20% 0px',
+      threshold: 0.2,
     };
 
     const observer = new IntersectionObserver(handleScroll, options);
@@ -42,13 +42,13 @@ const NavBar = () => {
   }, []);
 
   return (
-    <div className='sticky top-0 left-0 w-full bg-black text-white z-50'>
-      <nav className='flex justify-between items-center max-w-6xl mx-auto py-4'>
+    <div className='fixed top-0 left-0 w-full bg-black text-white z-50'>
+      <nav className='flex justify-between items-center max-w-6xl mx-auto py-2'>
         <div className='flex-none'>
           <img 
             src={logo} 
             alt="puagmae logo" 
-            className='w-20 h-20'
+            className='w-14 h-14'
           />
         </div>
         <div className='hidden lg:flex justify-center'>

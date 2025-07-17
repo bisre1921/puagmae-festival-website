@@ -4,7 +4,7 @@ import "../index.css";
 
 const VendorsAndPartners = () => {
   return (
-    <div className="bg-gradient-to-b from-gray-900 via-black to-gray-900 py-20">
+    <div className="bg-gradient-to-b from-gray-900 via-black to-gray-900 py-20" id="partners">
       <div className="max-w-6xl mx-auto text-center px-6">
         <h2 className="text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600 mb-12">
           Our Trusted Partners
