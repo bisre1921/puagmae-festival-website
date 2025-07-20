@@ -3,10 +3,8 @@ import Typed from 'typed.js';
 import backgroundImage from '../assets/home-background.jpg';
 import { FaRegClock, FaArrowDown } from 'react-icons/fa';
 
-// TESTING: Set event dates relative to when the component is loaded
-// Set event dates for the countdown
-const eventStartDateTest = new Date('2025-09-06T06:00:00'); // September 6, 2025, 6:00 AM
-const eventEndDateTest = new Date('2025-09-11T00:00:00');   // September 11, 2025, 12:00 AM
+const eventStartDateTest = new Date('2025-09-06T06:00:00');
+const eventEndDateTest = new Date('2025-09-11T00:00:00');
 
 const Home = () => {
   const [timeRemaining, setTimeRemaining] = useState(getTimeRemaining());
@@ -72,18 +70,23 @@ const Home = () => {
 
   return (
     <div
-      className='relative min-h-screen bg-cover bg-top flex items-center justify-center px-4 scale-105 mt-20'
+      className='relative min-h-screen bg-ghost-white dark:bg-eerie-black bg-cover bg-top flex items-center justify-center px-4 scale-105 mt-20 transition-colors duration-500 brightness-110 dark:brightness-100'
       id='home'
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
-      {/* Simple, clean overlay */}
-      <div className='absolute inset-0 bg-black/50'></div>
+      {/* Soft white radial gradient overlay for light effect */}
+      <div className="absolute inset-0 pointer-events-none" style={{
+        background: "radial-gradient(circle at 50% 30%, rgba(255,255,255,0.35) 0%, rgba(255,255,255,0.10) 60%, transparent 100%)"
+      }}></div>
+      {/* Simple white overlay for extra brightness */}
+      <div className="absolute inset-0 bg-white/20 pointer-events-none"></div>
+      <div className='absolute inset-0 dark:bg-black/60'></div>
       
-      <div className='relative text-center text-white max-w-4xl mx-auto'>
+      <div className='relative text-center text-vampire-black dark:text-ghost-white max-w-4xl mx-auto transition-colors duration-500'>
         {/* Main heading - simplified and more readable */}
         <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight'>
           Join Us to Celebrate <br />
-          the African <span className='text-goldenrod'>Golden</span> 13th Month
+          the African <span className='text-goldenrod dark:text-goldenrod'>Golden</span> 13th Month
         </h1>
         
 
@@ -100,11 +103,11 @@ const Home = () => {
           <div className={
             isLive
               ? 'bg-yellow-400 rounded-2xl p-6 md:p-8 mb-8 max-w-3xl mx-auto border-4 border-yellow-700 shadow-2xl animate-pulse'
-              : 'bg-black/40 backdrop-blur-md rounded-2xl p-6 md:p-8 mb-8 max-w-3xl mx-auto border border-goldenrod/20 shadow-xl'
+              : 'bg-black/50 backdrop-blur-md rounded-2xl p-6 md:p-8 mb-8 max-w-3xl mx-auto border border-goldenrod/20 shadow-xl'
           }>
             <h2 className={
               isLive
-                ? 'text-xl md:text-2xl font-bold mb-6 flex items-center justify-center text-white drop-shadow-lg'
+                ? 'text-xl md:text-2xl font-bold mb-6 flex items-center justify-center text-eerie-black drop-shadow-lg'
                 : 'text-xl md:text-2xl font-bold mb-6 flex items-center justify-center text-goldenrod'
             }>
               <FaRegClock className='mr-2 text-xl md:text-2xl' />
@@ -119,20 +122,20 @@ const Home = () => {
               ].map((item, index) => (
                 <div key={index} className={
                   isLive
-                    ? 'bg-white/90 rounded-lg p-3 md:p-4 text-center shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-110'
+                    ? 'bg-ghost-white rounded-lg p-3 md:p-4 text-center shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-110'
                     : 'bg-goldenrod rounded-lg p-3 md:p-4 text-center shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105'
                 }>
                   <span className={
                     isLive
                       ? 'block text-2xl md:text-3xl lg:text-4xl font-bold text-yellow-700 mb-1'
-                      : 'block text-2xl md:text-3xl lg:text-4xl font-bold text-black mb-1'
+                      : 'block text-2xl md:text-3xl lg:text-4xl font-bold text-eerie-black mb-1'
                   }>
                     {item.value.toString().padStart(2, '0')}
                   </span>
                   <div className={
                     isLive
                       ? 'text-xs md:text-sm font-semibold text-yellow-900/80 uppercase tracking-wide'
-                      : 'text-xs md:text-sm font-semibold text-black/80 uppercase tracking-wide'
+                      : 'text-xs md:text-sm font-semibold text-eerie-black/80 uppercase tracking-wide'
                   }>
                     {item.label}
                   </div>
@@ -141,17 +144,17 @@ const Home = () => {
             </div>
           </div>
         ) : (
-          <div className='bg-black rounded-2xl p-10 mb-8 max-w-3xl mx-auto border-4 border-goldenrod text-center text-goldenrod text-3xl font-extrabold shadow-[0_8px_32px_rgba(0,0,0,0.35)]'>
+          <div className='bg-ghost-white dark:bg-eerie-black rounded-2xl p-10 mb-8 max-w-3xl mx-auto border-4 border-goldenrod text-center text-goldenrod text-3xl font-extrabold shadow-[0_8px_32px_rgba(0,0,0,0.35)]'>
             The Festival has ended. See you next year!
           </div>
         )}
 
         {/* Simple call to action */}
         <div className='flex flex-col sm:flex-row gap-4 justify-center items-center'>
-          <button className='bg-goldenrod text-black px-6 py-3 rounded-lg font-semibold border border-goldenrod hover:bg-transparent hover:text-goldenrod transition-colors duration-300 transform hover:scale-105'>
+          <button className='bg-goldenrod text-eerie-black dark:text-eerie-black px-6 py-3 rounded-lg font-semibold border border-goldenrod hover:bg-transparent hover:text-goldenrod transition-colors duration-300 transform hover:scale-105'>
             Get Tickets
           </button>
-          <button className='border border-goldenrod text-goldenrod px-6 py-3 rounded-lg font-semibold hover:bg-goldenrod hover:text-black transition-colors duration-300 transform hover:scale-105'>
+          <button className='border border-goldenrod text-goldenrod px-6 py-3 rounded-lg font-semibold hover:bg-goldenrod hover:text-eerie-black transition-colors duration-300 transform hover:scale-105'>
             Learn More
           </button>
         </div>

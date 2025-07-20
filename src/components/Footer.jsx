@@ -3,7 +3,7 @@ import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaFacebookF, FaTwitter, FaInstagra
 
 const Footer = () => {
     return (
-        <footer className="bg-gradient-to-b from-gray-900 to-black py-16 px-4 text-white">
+        <footer className="bg-ghost-white dark:bg-eerie-black text-vampire-black dark:text-ghost-white py-16 px-4 transition-colors duration-500">
             <div className="max-w-6xl mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
                     <div>
@@ -41,8 +41,10 @@ const Footer = () => {
                         <ul className="space-y-2">
                             <li><a href="#home" className="hover:text-goldenrod transition duration-300">Home</a></li>
                             <li><a href="#about" className="hover:text-goldenrod transition duration-300">About</a></li>
+                            <li><a href="#services" className="hover:text-goldenrod transition duration-300">Services</a></li>
                             <li><a href="#schedule" className="hover:text-goldenrod transition duration-300">Schedule</a></li>
                             <li><a href="#gallery" className="hover:text-goldenrod transition duration-300">Gallery</a></li>
+                            <li><a href="#testimonials" className="hover:text-goldenrod transition duration-300">Testimonials</a></li>
                             <li><a href="#contact" className="hover:text-goldenrod transition duration-300">Contact</a></li>
                         </ul>
                     </div>

@@ -14,7 +14,7 @@ const Gallery = () => {
   }, []);
 
   return (
-    <div className="gallery-section bg-gradient-to-b from-black via-gray-800 to-black py-20 pb-28 h-[700px]" id="gallery">
+    <div className="gallery-section bg-ghost-white dark:bg-eerie-black text-vampire-black dark:text-ghost-white py-20 pb-28 h-[700px] transition-colors duration-500" id="gallery">
       <h1 className="text-4xl md:text-5xl text-center font-extrabold text-goldenrod mb-8">
         Gallery
       </h1>
