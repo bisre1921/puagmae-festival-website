@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -7,11 +8,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        goldenrod: '#DAA520', // Custom golden color
-        'transparent-black': 'rgba(0, 0, 0, 0.5)' // Semi-transparent black for overlay
+        goldenrod: '#DAA520',
+        'transparent-black': 'rgba(0, 0, 0, 0.5)',
+        'eerie-black': '#1b1b1b',
+        'ghost-white': '#f8f8ff',
+        'vampire-black': '#080808',
       },
       spacing: {
-        '128': '32rem', // Custom spacing if needed
+        '128': '32rem',
       },
     },
   },

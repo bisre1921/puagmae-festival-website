@@ -14,9 +14,9 @@ const Testimonials = () => {
     };
 
     return (
-        <div className="bg-gradient-to-b from-gray-900 via-gray-800 to-black py-20 pb-28 px-4" id="testimonials">
+        <div className="bg-ghost-white dark:bg-eerie-black text-vampire-black dark:text-ghost-white py-20 pb-28 px-4 transition-colors duration-500" id="testimonials">
             <div className="max-w-6xl mx-auto">
-                <h1 className="text-4xl md:text-6xl font-extrabold text-center text-white mb-12">
+                <h1 className="text-4xl md:text-6xl font-extrabold text-center text-goldenrod mb-12">
                     Hear from Our Guests
                 </h1>
                 <div className="relative flex items-center justify-center">
@@ -27,7 +27,7 @@ const Testimonials = () => {
                                 className="text-center transition-opacity duration-500 ease-in-out transform scale-100 hover:scale-105"
                             >
                                 <FaQuoteLeft className="text-2xl md:text-3xl text-goldenrod mb-4 mx-auto" />
-                                <p className="text-lg md:text-2xl text-gray-300 italic max-w-3xl mx-auto leading-relaxed px-4">
+                                <p className="text-lg md:text-2xl text-vampire-black dark:text-ghost-white italic max-w-3xl mx-auto leading-relaxed px-4">
                                     "{testimonial.quote}"
                                 </p>
                                 <div className="flex flex-col md:flex-row justify-center items-center gap-6 mt-8">
@@ -37,10 +37,10 @@ const Testimonials = () => {
                                         className="rounded-full h-20 w-20 md:h-24 md:w-24 border-4 border-goldenrod shadow-lg"
                                     />
                                     <div className="text-center md:text-left">
-                                        <h4 className="text-xl md:text-2xl text-white font-semibold">
+                                        <h4 className="text-xl md:text-2xl text-vampire-black dark:text-ghost-white font-semibold">
                                             {testimonial.name}
                                         </h4>
-                                        <h5 className="text-md md:text-lg text-gray-400">{testimonial.title}</h5>
+                                        <h5 className="text-md md:text-lg text-vampire-black dark:text-ghost-white/70">{testimonial.title}</h5>
                                     </div>
                                 </div>
                             </div>
@@ -69,7 +69,7 @@ const Testimonials = () => {
                             key={index}
                             onClick={() => setCurrent(index)}
                             className={`cursor-pointer h-3 w-3 md:h-4 md:w-4 mx-1 md:mx-2 rounded-full ${
-                                index === current ? "bg-goldenrod" : "bg-gray-600"
+                                index === current ? "bg-goldenrod" : "bg-eerie-black dark:bg-ghost-white/30"
                             }`}
                         />
                     ))}
