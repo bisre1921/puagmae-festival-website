@@ -26,6 +26,24 @@ import gallery8 from './assets/Gallery/gallery-image10.jpg';
 import gallery9 from './assets/Gallery/gallery-image11.jpg';
 import gallery10 from './assets/Gallery/gallery-image12.jpg';
 import gallery11 from './assets/Gallery/gallery-image13.jpg';
+import gallery12 from './assets/Gallery/gallery-image14.jpg';
+import gallery13 from './assets/Gallery/gallery-image15.jpg';
+import gallery14 from './assets/Gallery/gallery-image16.jpg';
+import gallery15 from './assets/Gallery/gallery-image17.jpg';
+import gallery16 from './assets/Gallery/gallery-image18.jpg';
+import gallery17 from './assets/Gallery/gallery-image19.jpg';
+import gallery18 from './assets/Gallery/gallery-image20.jpg';
+import gallery19 from './assets/Gallery/gallery-image21.jpg';
+import gallery20 from './assets/Gallery/gallery-image22.jpg';
+import gallery21 from './assets/Gallery/gallery-image23.jpg';
+import gallery22 from './assets/Gallery/gallery-image24.jpg';
+import gallery23 from './assets/Gallery/gallery-image25.jpg';
+import gallery24 from './assets/Gallery/gallery-image26.jpg';
+import gallery25 from './assets/Gallery/gallery-image27.jpg';
+// import gallery26 from './assets/Gallery/gallery-image28.JPG';
+// import gallery27 from './assets/Gallery/gallery-image29.JPG';
+import gallery28 from './assets/Gallery/gallery-image30.jpg';
+import gallery29 from './assets/Gallery/gallery-image31.jpg';
 
 import gashabera from "./assets/testimonials/gashabera.png";
 import getnet from "./assets/testimonials/getnet.jpg";
@@ -43,12 +61,22 @@ import ministryOfCulture from './assets/Logo/ministry of culture and sport.png';
 import peaceJourneyAfrica from './assets/Logo/peace journey africa.png';
 import sodere from './assets/Logo/sodere.png';
 import au from './assets/Logo/au.png';
-
+import linkup from "./assets/Logo/linkup_logo.png";
+import ellile from "./assets/Logo/ellile.jpg";
+import awash from "./assets/Logo/awash.png";
+import cbe from "./assets/Logo/cbe.png";
+import kuriftu from "./assets/Logo/kuriftu.jpg";
+import qin from "./assets/Logo/qin.png";
+import dashen from "./assets/Logo/Dashen_Bank.png";
+import boa from "./assets/Logo/boa.png";
+import debredamo from "./assets/Logo/debredamo.jpg";
+import kabba from "./assets/Logo/kabba-logo.png";
 
 import firstVideo from './assets/videos/D.mp4'
 import secondVideo from './assets/videos/H.mp4'
 import thirdVideo from './assets/videos/R.mp4'
 import fourthVideo from './assets/videos/S.mp4'
+import newVideo from './assets/videos/PUAGMAE_NEW.mp4'
 
 import { FaHandshake , FaUsers, FaLightbulb, FaBullhorn, FaRocket } from 'react-icons/fa';
 import { MdEqualizer } from 'react-icons/md';
@@ -210,30 +238,30 @@ export const scheduleData = [
 ];
 
 export const galleryData = [
-    {
-        image: gallery1,
-        alt: 'Gallery Image 1',
-    } ,
-    {
-        image: gallery2,
-        alt: 'Gallery Image 2',
-    } ,
-    {
-        image: gallery3,
-        alt: 'Gallery Image 3',
-    } ,
-    {
-        image: gallery4,
-        alt: 'Gallery Image 4',
-    } ,
-    {
-        image: gallery5,
-        alt: 'Gallery Image 5',
-    } ,
-    {
-        image: gallery6,
-        alt: 'Gallery Image 6',
-    } ,
+    // {
+    //     image: gallery1,
+    //     alt: 'Gallery Image 1',
+    // } ,
+    // {
+    //     image: gallery2,
+    //     alt: 'Gallery Image 2',
+    // } ,
+    // {
+    //     image: gallery3,
+    //     alt: 'Gallery Image 3',
+    // } ,
+    // {
+    //     image: gallery4,
+    //     alt: 'Gallery Image 4',
+    // } ,
+    // {
+    //     image: gallery5,
+    //     alt: 'Gallery Image 5',
+    // } ,
+    // {
+    //     image: gallery6,
+    //     alt: 'Gallery Image 6',
+    // } ,
     {
         image: gallery7,
         alt: 'Gallery Image 7',
@@ -254,21 +282,108 @@ export const galleryData = [
         image: gallery11,
         alt: 'Gallery Image 11',
     } ,
+    {
+        image: gallery12,
+        alt: 'Gallery Image 12',
+    } ,
+    {
+        image: gallery13,
+        alt: 'Gallery Image 13',
+    } ,
+    {
+        image: gallery14,
+        alt: 'Gallery Image 14',
+    } ,
+    {
+        image: gallery15,
+        alt: 'Gallery Image 15',
+    } ,
+    {
+        image: gallery16,
+        alt: 'Gallery Image 16',
+    } ,
+    {
+        image: gallery17,
+        alt: 'Gallery Image 17',
+    } ,
+    {
+        image: gallery18,
+        alt: 'Gallery Image 18',
+    } ,
+    {
+        image: gallery19,
+        alt: 'Gallery Image 19',
+    } ,
+    {
+        image: gallery20,
+        alt: 'Gallery Image 20',
+    } ,
+    {
+        image: gallery21,
+        alt: 'Gallery Image 21',
+    } ,
+    {
+        image: gallery22,
+        alt: 'Gallery Image 22',
+    } ,
+    {
+        image: gallery23,
+        alt: 'Gallery Image 23',
+    } ,
+    {
+        image: gallery24,
+        alt: 'Gallery Image 24',
+    } ,
+    {
+        image: gallery25,
+        alt: 'Gallery Image 25',
+    } ,
+    // {
+    //     image: gallery26,
+    //     alt: 'Gallery Image 26',
+    // } ,
+    // {
+    //     image: gallery27,
+    //     alt: 'Gallery Image 27',
+    // } ,
+    {
+        image: gallery28,
+        alt: 'Gallery Image 28',
+    } ,
+    {
+        image: gallery29,
+        alt: 'Gallery Image 29',
+    } ,
+    // {
+    //     image: gallery30,
+    //     alt: 'Gallery Image 30',
+    // } ,
 ]
 
 export const vendors =[
     { name: "", logo: peaceJourneyAfrica },
     { name: "", logo: au },
-    { name: "", logo: africanTourismBoard },
+    // { name: "", logo: africanTourismBoard },
     { name: "", logo: etAirlines },
-    { name: "", logo: ermiasAdvertising },
-    { name: "", logo: americanFriendsService },
-    { name: "", logo: cocaCola },
-    { name: "", logo: twoFive },
+    // { name: "", logo: ermiasAdvertising },
+    // { name: "", logo: americanFriendsService },
+    // { name: "", logo: cocaCola },
+    // { name: "", logo: twoFive },
     { name: "", logo: kanaTv },
-    { name: "", logo: genericLogo },
-    { name: "", logo: ministryOfCulture },
-    { name: "", logo: sodere },
+    // { name: "", logo: genericLogo },
+    // { name: "", logo: ministryOfCulture },
+    // { name: "", logo: sodere },
+    { name: "", logo: linkup },
+    { name: "", logo: boa },
+    { name: "", logo: ellile },
+    { name: "", logo: awash },
+    { name: "", logo: cbe },
+    { name: "", logo: kuriftu },
+    { name: "", logo: qin },
+    { name: "", logo: dashen },
+    { name: "", logo: debredamo },
+    { name: "", logo: kabba },
+
   ];
 
 export const testimonials = [
@@ -293,6 +408,10 @@ export const testimonials = [
 ]
 
 export const videos = [
+    {
+        title: 'New Video',
+        path: newVideo
+    },
     {
         title: 'Video Title 1',
         path: firstVideo
